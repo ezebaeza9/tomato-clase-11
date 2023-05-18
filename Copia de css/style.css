@@ -1,0 +1,110 @@
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilos generales */
+
+header{
+    text-align: center;
+    background-color: navajowhite;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    background-color: navajowhite;
+    margin-left: 50px;
+    padding: 5px;
+    border: 3px solid black;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.entrada{
+    text-align: center;
+    height: 500px;
+    background-image: url(../img/entrada.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.vehiculos-1{
+    position: relative;
+    top: 22px;
+    left: 30px;
+}
+
+.vehiculos-2{
+
+    position: relative;
+    bottom: 500px;
+    left: 850px;
+}
+
+.tienda{
+    margin-left: 475px;
+    margin-top: 50px;
+}
+
+.cotizar{
+    position: relative;
+    margin-left: 1000px;
+    margin-top: 50px;
+}
+
+.fondo{
+    height: 650px;
+    background-image: url(../img/main-cotizamos.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.contacto{
+   text-align: center;
+}
+
+.caja{
+    height: 50px;
+}
+
+.form{
+    display: inline;
+    text-align: center;
+    padding: 30px;
+    margin: 50px;
+}
+
+main{
+    background-color: navajowhite;
+}
+
+main h1{
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+}
+
+footer h2{
+    color: navajowhite;
+    text-align: center;
+}
+
+footer p{
+    color: navajowhite;
+    text-align: center;
+}
+
+
